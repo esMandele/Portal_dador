@@ -1,0 +1,401 @@
+@charset "UTF-8";
+body{
+    font-family:'Open Sans', sans-serif;
+    background-color:#ffe6e6;
+}
+
+h2 {
+    color: #cc0000;
+    font-size: 24px;
+    margin-bottom: 10px;
+    padding-top: 100px;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.row{
+    margin: 0;
+}
+
+.container{
+    padding: 70px 0;
+    width: 400px;
+}
+
+p, .li{
+    color: #330000;
+    font-size: 16px;
+    text-align: justify;
+}
+
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+article {
+    max-width: 700px;
+    display: block;
+    margin: 0 auto;
+    padding: 35px;
+    margin: auto;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+/*Estilos da barra de nav*/
+header, .navbar{
+    background-color: #cc0000;
+}
+
+#nav-container{
+    padding-top: 0;
+    padding-bottom: 0;
+}
+
+#logo{
+    width: 75px;
+}
+
+.navbar-brand{
+    padding: 0;
+    color: #cc0000;
+}
+
+.navbar-brand:hover{
+    color: #ffe6e6;
+}
+
+#navbar-links a{
+    font-weight: bold;
+}
+
+#navbar-links a:hover{
+    color: #180F4A;
+    border-bottom: 1px solid wheat;
+}
+.navbar-expand-lg .navbar-nav .nav-link{
+    padding: 2rem 10rem;
+}
+
+
+/*slider*/
+#mainSlider .carousel-inner, #mainSlider .carousel-item{
+    height: 30rem;
+    background-image: url(./img/bd1-750.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+} 
+#mainSlider .carousel-caption{
+    margin-top: 35px;
+}
+
+#mainSlider .carousel-caption h2{
+    font-size: 25px;
+    margin-bottom: 30px;
+    color: #2b124c;
+}
+
+#mainSlider .carousel-caption p{
+   font-size: 18px;
+   font-weight: 350;
+   margin-bottom: 100px;
+   text-align: center;
+}
+
+.main-btn{
+    background-color: #cc0000;
+    color: #ffe6e6;
+    text-transform: uppercase;
+    width: 200px;
+    height: 60px;
+    padding: 10px 20px;
+    border-radius: 5px;
+    border: 3px solid transparent;
+    transition: .5s;
+}
+
+.main-btn:hover{
+    text-decoration: none;
+    color: #330000;
+    background-color: transparent;
+    border-color: #cc0000;
+}
+
+.carousel-control-prev-icon {
+    background-color: #cc0000;
+}
+.carousel-control-next-icon{
+    background-color: #cc0000;   
+}
+
+/*Sobre o portal*/
+
+#home-menu{
+    background-color: whitesmoke; 
+}
+
+.main-title{
+    color: #2b124c;
+    margin: 0 0 65px 0;
+    font-size: 35 px;
+    text-align: center;
+    padding-top: 55px;
+}
+
+.about-title{
+    font-size: 16px;
+    color: #180F4A;
+    text-transform: initial;    
+    font-weight: bold;
+}
+.about-list{
+    list-style: none;
+    padding-left: 0;
+}
+
+.about-list li{
+    line-height: 20px;
+    
+}
+
+.about-list i{
+    color: #0085ff;
+    margin-right: 15px;
+}
+/*Cards*/
+.card-body{
+    padding: 32px;
+    text-align: center; 
+    align-items: center;
+}
+
+.card, .card-text{
+    text-align: justify;  
+}
+
+.card-title{
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: bolder;
+    margin-bottom: 4px;
+}
+
+/*Entrar*/
+#apply-area{
+    height: 500px;
+}
+
+#apply-area .container-fluid, #apply-area .row{
+    height: 100%;
+}
+#apply-area, .apply-box{
+    text-align: center;
+    padding: 70px 50px;
+}
+#company-img{
+    background-image: url(../img/w-blood-d1-500.jpg);
+    background-size: contain;
+    background-position:  centerright;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+#pattern-img h4, #pattern-img p{
+    color: #444;
+}
+
+#pattern-img h4{
+    margin-top: 10%;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+}
+#pattern-img p{
+    margin-bottom: 15px;
+}
+
+#apply-btn{
+    display: block;
+    height: auto;
+    width: 180px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 30px;
+    border-color: #444;
+    color: #ffe6e6 ;
+}
+#apply-btn:hover{
+    background-color: transparent ;
+    color: #330000;
+}
+
+/* ELEMENTOS DE FORMULÁRIO */
+form {
+    background-color: #fff;
+    padding: 15px;
+    border-radius: 10px; 
+    width: 85vh;
+    height: 85vh;
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.502);
+}
+
+.form-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100vh;     
+}
+
+.form-container label{
+    color: #0085ff;
+    text-transform: capitalize;
+    margin-top: 6px;
+    
+}
+
+.form label {
+    display: block;
+    width: fit-content;
+    font-size: 0.8em;
+    font-weight: 100;
+    background-color: rgba(82, 119, 143, 0.679);
+    padding: 3px 7px;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    border-radius: 5px;
+}
+
+
+input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 1em;
+    margin: 8px 0;
+    border: 1px solid #cc0000;
+    border-radius: 5px;
+    box-sizing: border-box;
+}
+
+input[type="submit"] {
+    width: 100%;
+    padding: 10px 20px;
+    margin-top: 20px;
+    background-color: #4caf50;
+    color: #330000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+input[type="submit"]:hover {
+    background-color: transparent;
+    border: 1px solid #4caf50;
+}
+
+
+/*Footer*/
+#contact-area{
+    text-align: center;
+}
+
+.contact-box{
+    padding-bottom: 50px;
+    margin-bottom: 50px;
+    border-bottom: 1px solid #cc0000;
+}
+
+.contact-box i{
+    color: #cc0000;
+    border: 1px solid #444;
+    border-radius: 50%;
+    width: 55px;
+    height: 55px;
+    line-height: 55px;
+    font-size: 26px;
+    margin-bottom: 20px;
+}
+
+.contact-box p{
+    font-size: 15px;
+    text-align: justify;
+}
+
+.contact-title{
+    font-weight: bold;
+    color: #330000;
+    text-align: justify;
+}
+
+/*Copy*/
+#copy-area{
+    background-color:#cc0000;
+}
+
+#copy-area .container{
+    padding: 25px 0;
+    text-align: center;
+}
+
+#copy-area .container p{
+    margin-bottom: 0;
+}
+
+#copy-area .container a{
+    font-weight: bold;
+    color: #330000;
+}
+#copy-area .container a:hover{
+    color: #0085ff;
+    text-decoration: none;
+}
+
+/* --Acordião-- */
+.accordion{
+    --bg-accordion-btn-bg: #0085ff;
+    --bs-accordion-active-bg: #330000;
+    --bs-accordion-active-color: #fff; 
+    --bs-accordion-btn-focus-box-shadow: none;
+    --bs-accordion-bg: #ffe6e6;
+    --bs-accordion-color: #330000; 
+}
+
+.accordion-button:no(.collapsed){
+    box-shadow: none;
+}
+
+/* Respossivo */
+@media (max-width:768px) {
+    /* medias gerais */
+    .container{
+        padding: 20px 0;
+    }
+
+    /* Slider */
+    #mainSlider .carousel-caption h2{
+        font-size: 28px;
+    }
+
+    #mainSlider .carousel-caption p{
+        font-size: 18px;
+        margin-bottom: 40px;
+    }
+
+       /* Sobre */
+    #about-area img{
+       margin-top: 100px;
+   }
+
+   /*Cards */
+   .card-title{
+    font-size: 10px;
+    text-transform: capitalize;
+   }
+
+   .card-text{
+    font-size: 14px;
+    text-align: justify;
+   }
+}
