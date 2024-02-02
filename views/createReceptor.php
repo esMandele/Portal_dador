@@ -23,12 +23,12 @@
         //Grvar na DB
         $receptorController->inserirReceptor($receptor);
 
-        header("Location: index.php");
+       // header("Location: index.php");
     }
 ?>
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -36,11 +36,11 @@
 </head>
 <body>
     <form action="<?php echo $_SERVER['PHP_SELF'];?>" method="Post">
-        Nome:<input type="text" name="nome">
-        Idade: <input type="text"  name="idade">
-        Genero:<input type="text"  name="genero">
-        Contacto:<input type="text"  name="contacto">
-        Endereco: <input type="text" name="endereco">
+        Nome:<input type="text" name="nome"><br>
+        Idade: <input type="text"  name="idade"><br>
+        Genero:<input type="text"  name="genero"><br>
+        Contacto:<input type="text"  name="contacto"><br>
+        Endereco: <input type="text" name="endereco"><br>
 
         <button name="btn-registrar">Gravar</button>
     </form>
