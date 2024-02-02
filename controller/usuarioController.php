@@ -1,6 +1,6 @@
 <?php
 
-require_once("C:/xampp/htdocs/portaldodador/models/Usuario.php");
+require_once("C:/wamp64/www/portaldodador/models/Usuario.php");
 
 
 class usuarioController extends Usuario{

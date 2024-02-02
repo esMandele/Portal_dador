@@ -1,6 +1,6 @@
 <?php
 
-    require_once("C:/xampp/htdocs/portaldodador/models/receptor.php");
+require_once("C:/wamp64/www/portaldodador/models/receptor.php");
 
 
     class receptorController extends Receptor{

@@ -1,6 +1,6 @@
 <?php
 
-    require_once("C:/xampp/htdocs/portaldodador/models/centro.php");
+require_once("C:/wamp64/www/portaldodador/models/centro.php");
 
     class centroController extends Centro{
 

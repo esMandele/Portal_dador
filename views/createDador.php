@@ -1,6 +1,6 @@
 <?php
-    require_once("C:/xampp/htdocs/portaldodador/models/Dador.php");
-    require_once("C:/xampp/htdocs/portaldodador/controller/dadorController.php");
+    require_once("C:/wamp64/www/portaldodador/models/Dador.php");
+    require_once("C:/wamp64/www/portaldodador/controller/dadorController.php");
     
     
     $dador = new Dador();

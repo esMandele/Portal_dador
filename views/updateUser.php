@@ -1,6 +1,6 @@
 <?php
 
-    require_once("C:/xampp/htdocs/portaldodador/controllers/usuarioController/usuarioController.php");
+    require_once("C:/wamp64/www/portaldodador/controllers/usuarioController/usuarioController.php");
     
 
     $userController = new usuarioController();

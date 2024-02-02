@@ -1,5 +1,5 @@
 <?php 
-    require_once("C:/xampp/htdocs/portaldodador/dataBase/ConnectToDB.php");
+    require_once("C:/wamp64/www/portaldodador/dataBase/ConnectToDB.php");
 
     class Centro extends ConnectToDB{
         private $id;
