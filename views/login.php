@@ -1,6 +1,6 @@
 <?php 
     //Conexão
-    require_once'db_connect.php';
+    require_once("C:/wamp64/www/portaldodador/dataBase/ConnectToDB.php");
     
     //Sesão
     session_start();
