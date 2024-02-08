@@ -236,7 +236,7 @@
       <?php
         require_once("C:/xampp/htdocs/portaldodador/controller/centroController.php");
 
-        $centro = new centroController();
+        $centro = new centroController($model);
         $resultado = $centro -> listarcentro();
         foreach ($resultado as $centro){
           print_r("<tr>
